@@ -1,0 +1,53 @@
+# Compiled Source #
+###################
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Editing tools and IDEs #
+##########################
+[._]*.sw[a-p]
+[._]*.s[a-v][a-z]
+*~
+~*
+\#*\#
+\.#*
+.ipynb_checkpoints/
+*.kate-swp
+.~lock*
+
+# Latex build files #
+#####################
+*.aux
+*.dvi
+*.synctex.gz
+
+# Pycharm IDE files #
+#####################
+.idea/*
+__pycache__/*
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# Private Key files #
+#####################
+*.key
+*.pem
+*.psk
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db

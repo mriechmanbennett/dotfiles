@@ -1,0 +1,44 @@
+[advice]
+	detachedHead = false
+
+[alias]
+	la = log --all --graph --decorate
+	versions = tag -l --sort=version:refname
+	co = checkout
+	save = commit -a -m "Save"
+	f = fetch --tags --prune --all
+	loga = log --all --graph --decorate
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[color]
+	ui = auto
+
+[color "grep"]
+	match = cyan bold
+	selected = blue
+	context = normal
+	filename = magenta
+	linenumber = yellow
+	separator = green
+
+[fetch]
+	prune = true
+
+[http]
+	cookieFile = ~/.gitcookies
+
+[init]
+	defaultBranch = main
+
+[pull]
+	ff = only
+
+[user]
+	useConfigOnly = true
+
+
+# Local customizations from .gitconfig_local file
+[include]
+	path = ~/.gitconfig_local
