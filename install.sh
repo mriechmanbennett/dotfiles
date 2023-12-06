@@ -1,7 +1,16 @@
 #!/usr/bin/env bash
 
 # Shell script to handle symlinks to the dotfiles directory
-ln -s ${PWD}/zshrc ~/.zshrc
-ln -s ${PWD}/gitignore_global ~/.gitignore_global
-ln -s ${PWD}/gitconfig ~/.gitconfig
-ln -s ${PWD}/vimrc ~/.vimrc
+
+InstallFile() {
+	rm ~/.$1.bak 2> /dev/null
+	mv ~/.$1 ~/.$1.bak 2> /dev/null
+	ln -s ${PWD}/$1 ~/.$1
+}
+
+filesToInstall=('zshrc' 'gitignore_global' 'gitconfig' 'vimrc')
+
+for file in "${filesToInstall[@]}"
+do
+	InstallFile $file
+done
