@@ -30,3 +30,7 @@ set noerrorbells visualbell t_vb=
 
 " save read-only files
 command -nargs=0 Sudow w !sudo tee & >/dev/null
+
+" Remap j and k for better soft-wrap navigation in normal mode
+nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
+nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
