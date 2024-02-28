@@ -54,4 +54,4 @@ alias chgrp='chgrp --preserve-root'
 ###############
 # $PATH updates
 ###############
-export PATH=$PATH:/home/matt/.local/bin
+export PATH=$PATH:$HOME/.local/bin
