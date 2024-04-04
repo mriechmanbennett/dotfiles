@@ -1,4 +1,4 @@
 # dotfiles
 Repo to store my configs
 
-Format shamelessly stolen from https://github.com/anishathalye/dotfiles
+Dependent on https://github.com/anishathalye/dotbot
