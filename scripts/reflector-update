@@ -1,0 +1,4 @@
+#!/bin/bash
+[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@"
+reflector-update='reflector -c US -a 6 --sort rate --save /etc/pacman.d/mirrorlist' &&
+pacman -Syyy
