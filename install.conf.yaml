@@ -5,10 +5,10 @@
 - clean: ['~']
 
 - link:
-    ~/.vimrc: vimrc
-    ~/.zshrc: zshrc
-    ~/.gitignore_global: gitignore_global
-    ~/.gitconfig: gitconfig
+    ~/.vimrc:
+    ~/.zshrc:
+    ~/.gitignore_global:
+    ~/.gitconfig:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
