@@ -36,6 +36,8 @@ alias grep='grep --color=auto'
 alias free='free -h -l -t'
 alias c='clear'
 
+# Command redirection
+alias vim='nvim'
 
 # Mistake correction
 alias ope='sudo $(fc -ln -1)'
