@@ -1,14 +1,16 @@
 - defaults:
     link:
       relink: true
+      create: true
 
-- clean: ['~']
+- clean: ['~', '~/.config']
 
 - link:
-    ~/.vimrc:
-    ~/.zshrc:
-    ~/.gitignore_global:
-    ~/.gitconfig:
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+    ~/.gitignore_global: gitignore_global
+    ~/.gitconfig: gitconfig
+    ~/.config/nvim/init.vim: config/nvim/init.vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
