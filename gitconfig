@@ -46,3 +46,5 @@
 # Local customizations from .gitconfig_local file
 [include]
 	path = ~/.gitconfig_local
+
+#test line
