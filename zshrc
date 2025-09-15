@@ -35,6 +35,7 @@ alias lsa='ls -la --color=auto'
 alias grep='grep --color=auto'
 alias free='free -h -l -t'
 alias c='clear'
+alias ap='ansible-playbook'
 
 # Command redirection
 alias vim='nvim'
