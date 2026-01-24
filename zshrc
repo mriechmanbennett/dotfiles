@@ -58,3 +58,4 @@ alias chgrp='chgrp --preserve-root'
 ###############
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.local/bin/scripts
+export PATH=$PATH:$HOME/.dotnet/tools
