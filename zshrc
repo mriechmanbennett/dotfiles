@@ -59,3 +59,6 @@ alias chgrp='chgrp --preserve-root'
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.local/bin/scripts
 export PATH=$PATH:$HOME/.dotnet/tools
+
+# Environmental variables
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
