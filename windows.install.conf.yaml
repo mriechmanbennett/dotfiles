@@ -7,9 +7,13 @@
 
 - link:
     ~/.vimrc: vimrc
-    ~/.zshrc: zshrc
     ~/.gitignore_global: gitignore_global
     ~/.gitconfig: gitconfig
+    ~/.config/nvim/:
+      path: config/nvim/**
+      glob: true
+      relink: true
+    ~/Documents/PowerShell/profile.ps1: pwsh_profile.ps1
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
