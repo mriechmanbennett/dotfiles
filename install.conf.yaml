@@ -10,7 +10,10 @@
     ~/.zshrc: zshrc
     ~/.gitignore_global: gitignore_global
     ~/.gitconfig: gitconfig
-    ~/.config/nvim/init.vim: config/nvim/init.vim
+    ~/.config/nvim/:
+      path: config/nvim/**
+      glob: true
+      relink: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
