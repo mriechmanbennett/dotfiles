@@ -1,5 +1,3 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
 vim.cmd("set nocompatible")            -- disable compatibility to old-time vi
 vim.cmd("set showmatch")               -- show matching 
 vim.cmd("set ignorecase")              -- case insensitive 
