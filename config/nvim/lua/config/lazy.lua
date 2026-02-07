@@ -27,7 +27,7 @@ print("THIS IS GETTING REQUIRED")
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
-      { "folke/tokyonight.nvim", config = function() vim.cmd.colorscheme "tokyonight" end },
+      { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
         -- import your plugins
       { import = "config.plugins" },
   },
@@ -38,3 +38,6 @@ require("lazy").setup({
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
+
+-- This is absolutely the wrong place to put this, but I'm tired of learning how lazy.nvim works
+vim.cmd("colorscheme gruvbox")
