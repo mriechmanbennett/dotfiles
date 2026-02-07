@@ -2,3 +2,6 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "config/zsh/plugins/gruvbox-zsh"]
+	path = config/zsh/plugins/gruvbox-zsh
+	url = https://github.com/hgaiser/gruvbox-zsh.git

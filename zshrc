@@ -1,3 +1,6 @@
+# Source plugins that load first
+source ~/.config/zsh/plugins/gruvbox-zsh/gruvbox.zsh
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -23,6 +26,9 @@ zstyle ':vcs_info:git:*' formats 'on branch %F{red}%b%F{white}'
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 PROMPT=$'%F{yellow}%n%F{white}@%F{cyan}%m %F{white}in %F{magenta}%~%F{white}\n>'
+
+# Prompt version without color formatting:
+#PROMPT=$'%n@%m in %~\n>'
 RPROMPT=\$vcs_info_msg_0_
 
 #########
@@ -64,3 +70,6 @@ export PATH=$PATH:$HOME/.dotnet/tools
 
 # Environmental variables
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+
+

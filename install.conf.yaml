@@ -15,6 +15,11 @@
       glob: true
       relink: true
     ~/.config/powershell/profile.ps1: pwsh_profile.ps1
+    ~/.config/zsh/:
+      path: config/zsh/**
+      glob: true
+      relink: true
+
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
