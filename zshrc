@@ -29,7 +29,7 @@ zstyle ':vcs_info:git:*' formats '%fon branch %F{9}%b%f'
 
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
-PROMPT=$'%F{9}%n%f@%F{5}%m %fin %F{10}%~%f\n>'
+PROMPT=$'%F{9}%n%f@%F{5}%m %fin %F{11}%~%f\n>'
 #PROMPT=$'%n@%m in %~\n>'
 RPROMPT=\$vcs_info_msg_0_
 #END
