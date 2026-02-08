@@ -28,7 +28,7 @@ require("lazy").setup({
   spec = {
       { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
         -- import your plugins
-      { import = "config.plugins" },
+      { import = "plugins" },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
