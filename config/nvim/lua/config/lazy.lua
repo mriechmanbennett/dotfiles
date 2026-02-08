@@ -22,7 +22,6 @@ vim.opt.rtp:prepend(lazypath)
 -- This is also a good place to setup other settings (vim.opt)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
-print("THIS IS GETTING REQUIRED")
 
 -- Setup lazy.nvim
 require("lazy").setup({
@@ -36,7 +35,7 @@ require("lazy").setup({
   -- DEFAULT LINE COMMENTED BELOW
   -- install = { colorscheme = { "habamax" } },
   -- automatically check for plugin updates
-  checker = { enabled = true },
+  checker = { enabled = false },
 })
 
 -- This is absolutely the wrong place to put this, but I'm tired of learning how lazy.nvim works
