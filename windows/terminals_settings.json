@@ -1,0 +1,112 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Gruvbox Dark Medium"
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+    // Gruvbox: https://github.com/morhetz/gruvbox
+
+    // Windows Terminal Color Schemes: https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes
+    "schemes": [
+        // I have used bg0_s for background, bg_1 for black, bg_2 for bright black and selection background, fg_0 for
+        // bright white and cursor color, and fg_1 (foreground) for white.
+        {
+            "background": "#282828",
+            "black": "#3c3836",
+            "blue": "#458588",
+            "brightBlack": "#504945",
+            "brightBlue": "#83A598",
+            "brightCyan": "#8EC07C",
+            "brightGreen": "#B8BB26",
+            "brightPurple": "#D3869B",
+            "brightRed": "#FB4934",
+            "brightWhite": "#FBF1C7",
+            "brightYellow": "#FABD2F",
+            "cursorColor": "#FBF1C7",
+            "cyan": "#689D6A",
+            "foreground": "#EBDBB2",
+            "green": "#98971A",
+            "name": "Gruvbox Dark Medium",
+            "purple": "#B16286",
+            "red": "#CC241D",
+            "selectionBackground": "#504945",
+            "white": "#EBDBB2",
+            "yellow": "#D79921"
+        }
+    ],
+
+    // Windows Terminal Themes: https://learn.microsoft.com/en-us/windows/terminal/customize-settings/themes
+    // I have used bg_2 for tab background, bg_1 for unfocused tab and unfocused tab row backgrounds, and bg_0 for tab row background.
+    "themes": [
+        {
+            "name": "Gruvbox Dark",
+            "tab": {
+                "background": "#504945",
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": "#3c3836"
+            },
+            "tabRow": {
+                "background": "#282828",
+                "unfocusedBackground": "#3c3836"
+            },
+            "window": {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": false
+            }
+        }
+    ]
+}
