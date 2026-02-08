@@ -18,3 +18,4 @@ New-Alias -Name c -Value clear
 New-Alias -Name ap -Value ansible-playbook
 New-Alias -Name tf -Value terraform
 New-Alias -Name wo -Value Write-Output
+New-Alias -Name loga -Value 'git loga'

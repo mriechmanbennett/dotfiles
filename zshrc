@@ -52,6 +52,12 @@ alias c='clear'
 alias ap='ansible-playbook'
 alias tf='terraform'
 
+# git shortcuts
+alias g='git'
+alias ga='git add ./'
+alias loga='git loga'
+alias commit='git commit'
+
 # Command redirection
 alias vim='nvim'
 
