@@ -54,12 +54,7 @@
             }
         ]
     },
-    // Gruvbox: https://github.com/morhetz/gruvbox
-
-    // Windows Terminal Color Schemes: https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes
     "schemes": [
-        // I have used bg0_s for background, bg_1 for black, bg_2 for bright black and selection background, fg_0 for
-        // bright white and cursor color, and fg_1 (foreground) for white.
         {
             "background": "#282828",
             "black": "#3c3836",
@@ -85,8 +80,6 @@
         }
     ],
 
-    // Windows Terminal Themes: https://learn.microsoft.com/en-us/windows/terminal/customize-settings/themes
-    // I have used bg_2 for tab background, bg_1 for unfocused tab and unfocused tab row backgrounds, and bg_0 for tab row background.
     "themes": [
         {
             "name": "Gruvbox Dark",
