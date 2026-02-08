@@ -19,6 +19,10 @@
       path: config/zsh/**
       glob: true
       relink: true
+    ~/.config/shell/:
+      path: config/shell/**
+      glob: true
+      relink: true
 
 
 - shell:

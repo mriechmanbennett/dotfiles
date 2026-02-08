@@ -38,46 +38,10 @@ RPROMPT=\$vcs_info_msg_0_
 #######################
 
 
+# Source shell aliases
+source ~/.config/shell/aliases.sh
 
-#########
-# Aliases
-#########
-
-# Shortcuts and bonus options
-alias ls='ls --color=auto'
-alias lsa='ls -la --color=auto'
-alias grep='grep --color=auto'
-alias free='free -h -l -t'
-alias c='clear'
-alias ap='ansible-playbook'
-alias tf='terraform'
-
-# git shortcuts
-alias g='git'
-alias ga='git add ./'
-alias loga='git loga'
-alias commit='git commit'
-
-# Command redirection
-alias vim='nvim'
-
-# Mistake correction
-alias ope='sudo $(fc -ln -1)'
-alias :wq='exit'
-alias cd..='cd ..'
-
-# Safeties
-alias rm='rm -I --preserve-root'
-alias mv='mv -i'
-alias cp='cp -i'
-alias ln='ln -i'
-alias chown='chown --preserve-root'
-alias chmod='chmod --preserve-root'
-alias chgrp='chgrp --preserve-root'
-
-###############
 # $PATH updates
-###############
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.local/bin/scripts
 export PATH=$PATH:$HOME/.dotnet/tools
