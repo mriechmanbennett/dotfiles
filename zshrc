@@ -1,10 +1,5 @@
-# Source and set theme
+# Source and set color scheme
 source ~/.config/zsh/plugins/gruvbox-zsh/gruvbox.zsh
-: <<'END'
-source ~/.config/zsh/themes/gruvbox-zsh/gruvbox.zsh-theme
-ZSH_THEME="gruvbox"
-SOLARIZED_THEME="dark"
-END
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -30,7 +25,7 @@ autoload -Uz vcs_info
 precmd() { vcs_info }
 
 # Format the vcs_info_msg_0_ variable
-zstyle ':vcs_info:git:*' formats 'on branch %F{9}%b%F{7}'
+zstyle ':vcs_info:git:*' formats '%F{7}on branch %F{9}%b%F{7}'
 
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
