@@ -1,5 +1,9 @@
-# Source plugins that load first
-source ~/.config/zsh/plugins/gruvbox-zsh/gruvbox.zsh
+# Source and set theme
+: <<'END'
+source ~/.config/zsh/themes/gruvbox-zsh/gruvbox.zsh-theme
+ZSH_THEME="gruvbox"
+SOLARIZED_THEME="dark"
+END
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -16,6 +20,10 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+######################
+# Prompt configuration
+######################
+#: <<'END'
 # Load version control information
 autoload -Uz vcs_info
 precmd() { vcs_info }
@@ -26,10 +34,13 @@ zstyle ':vcs_info:git:*' formats 'on branch %F{red}%b%F{white}'
 # Set up the prompt (with git branch name)
 setopt PROMPT_SUBST
 PROMPT=$'%F{yellow}%n%F{white}@%F{cyan}%m %F{white}in %F{magenta}%~%F{white}\n>'
-
-# Prompt version without color formatting:
-#PROMPT=$'%n@%m in %~\n>'
 RPROMPT=\$vcs_info_msg_0_
+#END
+#######################
+# /Prompt configuration
+#######################
+
+
 
 #########
 # Aliases
