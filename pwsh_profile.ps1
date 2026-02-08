@@ -17,3 +17,4 @@ if ( !(Test-Path -Path 'C:\Program Files\Vim') ) { New-Alias -Name vim -Value nv
 New-Alias -Name c -Value clear
 New-Alias -Name ap -Value ansible-playbook
 New-Alias -Name tf -Value terraform
+New-Alias -Name wo -Value Write-Output
