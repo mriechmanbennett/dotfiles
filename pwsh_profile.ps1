@@ -1,3 +1,8 @@
+# Opt out of telemetry
+# Set it two ways because I can't be bothered to learn which is right
+$env:POWERSHELL_TELEMETRY_OPTOUT=1
+$POWERSHELL_TELEMETRY_OPTOUT=1
+
 # Change config directory for Neovim
 $env:XDG_CONFIG_HOME = "$HOME/.config"
 
