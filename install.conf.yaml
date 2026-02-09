@@ -14,6 +14,7 @@
       path: config/nvim/**
       glob: true
       relink: true
+      exclude: [ config/nvim/lua/disabled-plugin-backup/** ]
     ~/.config/powershell/profile.ps1: pwsh_profile.ps1
     ~/.config/zsh/:
       path: config/zsh/**

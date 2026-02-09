@@ -5,6 +5,7 @@ return {
     build = ':TSUpdate',
     config = function()
       require("nvim-treesitter.config").setup({
+	install_dir = vim.fn.stdpath('data') .. '/site',
 	auto_install = false,
 	sync_install = false,
 	highlight = {
