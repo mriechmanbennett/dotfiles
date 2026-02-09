@@ -16,9 +16,8 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-######################
+
 # Prompt configuration
-######################
 #: <<'END'
 # Load version control information
 autoload -Uz vcs_info
@@ -33,9 +32,6 @@ PROMPT=$'%F{9}%n%f@%F{5}%m %fin %F{11}%~%f\n>'
 #PROMPT=$'%n@%m in %~\n>'
 RPROMPT=\$vcs_info_msg_0_
 #END
-#######################
-# /Prompt configuration
-#######################
 
 
 # Source shell aliases
@@ -48,6 +44,3 @@ export PATH=$PATH:$HOME/.dotnet/tools
 
 # Environmental variables
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
-
-
-
