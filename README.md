@@ -28,3 +28,6 @@ or
 ```Powershell
 ./install.ps1
 ```
+
+## Notes
+ - Windows config file will ignore Neovim plugins by default

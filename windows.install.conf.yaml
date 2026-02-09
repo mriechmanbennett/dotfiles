@@ -13,6 +13,7 @@
       path: config/nvim/**
       glob: true
       relink: true
+      exclude: [ config/nvim/lua/plugins ]
     ~/Documents/PowerShell/profile.ps1: pwsh_profile.ps1
     ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json:
       path: windows/terminals_settings.json
