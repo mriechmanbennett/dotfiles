@@ -14,6 +14,9 @@ alias tf='terraform'
 # git shortcuts
 alias g='git'
 alias ga='git add ./'
+alias gco='git co'
+alias gcom='git commit'
+alias gst='git st'
 alias loga='git loga'
 alias commit='git commit'
 

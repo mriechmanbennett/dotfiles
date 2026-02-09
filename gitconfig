@@ -11,6 +11,8 @@
 	save = commit -a -m "Save"
 	f = fetch --tags --prune --all
 	loga = log --all --graph --decorate
+	st = status -s --branch --show-stash
+
 
 [core]
 	excludesfile = ~/.gitignore_global

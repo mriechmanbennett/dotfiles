@@ -20,6 +20,11 @@
       backup: true
       force: true
       relink: true
+    ~/.scripts:
+      path: scripts/pwsh/**
+      create: true
+      glob: true
+      relink: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
