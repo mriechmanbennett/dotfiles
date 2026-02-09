@@ -11,7 +11,7 @@
 	save = commit -a -m "Save"
 	f = fetch --tags --prune --all
 	loga = log --all --graph --decorate
-	st = status -s --branch --show-stash
+	st = status -s --branch --show-stash --untracked-files --ignore-submodules=untracked
 
 
 [core]

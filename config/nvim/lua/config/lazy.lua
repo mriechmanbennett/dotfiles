@@ -27,8 +27,11 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
       { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
-        -- import your plugins
+      -- import plugins
       { import = "plugins" },
+      -- import plugins that work with both windows and linux
+      -- 'x' for cross-platform shorthand
+      { import = "xplugins },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
