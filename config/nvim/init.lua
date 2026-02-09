@@ -1,6 +1,7 @@
 require("config.lazy")
 vim.opt.shiftwidth = 4
 vim.opt.clipboard = "unnamedplus"
+vim.opt.number = true
 
 -- Plugin-less settings from old vim config
 -- Left here for reference in case I get irritated and delete lazy
