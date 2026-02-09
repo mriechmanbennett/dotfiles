@@ -3,8 +3,10 @@
       relink: true
       create: true
 
-- clean: ['~', '~/.config']
-
+- clean: ['~']
+- clean:
+    ~/.config:
+      recursive: true
 - link:
     ~/.vimrc: vimrc
     ~/.gitignore_global: gitignore_global
@@ -14,6 +16,8 @@
       glob: true
       relink: true
       exclude: [ 'config/nvim/lua/plugins/**', 'config/nvim/lua/disabled-plugin-backup/**' ]
+    ~/.config/nvim/lua/plugins/empty-plugin.lua:
+      path: config/nvim/lua/plugins/empty-plugin.lua
     ~/Documents/PowerShell/profile.ps1: pwsh_profile.ps1
     ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json:
       path: windows/terminals_settings.json

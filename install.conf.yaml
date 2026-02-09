@@ -3,7 +3,11 @@
       relink: true
       create: true
 
-- clean: ['~', '~/.config']
+- clean: ['~']
+
+- clean:
+    ~/.config:
+      recursive: true
 
 - link:
     ~/.vimrc: vimrc
