@@ -18,8 +18,10 @@ alias gco='git co'
 alias gcom='git commit'
 alias gcomm='git commit -m'
 alias gst='git st'
+alias gp='git push'
 alias loga='git loga'
 alias commit='git commit'
+alias push='git push'
 
 # Command redirection
 alias vim='nvim'
@@ -28,6 +30,7 @@ alias vim='nvim'
 alias ope='sudo $(fc -ln -1)'
 alias :wq='exit'
 alias cd..='cd ..'
+alias ivm='vim'
 
 # Safeties
 alias rm='rm -I --preserve-root'
