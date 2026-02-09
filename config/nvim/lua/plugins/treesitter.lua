@@ -18,7 +18,6 @@ return {
       	        'ini',
       	        'javascript',
       	        'json',
-      	        'jsonc',
       	        'lua',
       	        'luadoc',
       	        'luap',
@@ -40,6 +39,36 @@ return {
       	        'yaml'
       	    },
       	})
+	require'nvim-treesitter'.install { 
+		'bash',
+      	        'c',
+      	        'diff',
+      	        'git_config',
+      	        'git_rebase',
+      	        'html',
+      	        'ini',
+      	        'javascript',
+      	        'json',
+      	        'lua',
+      	        'luadoc',
+      	        'luap',
+      	        'make',
+      	        'markdown',
+      	        'markdown_inline',
+      	        'powershell',
+      	        'printf',
+      	        'python',
+      	        'query',
+      	        'regex',
+      	        'rust',
+      	        'ssh_config',
+      	        'toml',
+      	        'typescript',
+      	        'vim',
+      	        'vimdoc',
+      	        'xml',
+      	        'yaml'
+	}
       end,
     }
 }
