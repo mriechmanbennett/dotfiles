@@ -31,7 +31,7 @@ require("lazy").setup({
       { import = "plugins" },
       -- import plugins that work with both windows and linux
       -- 'x' for cross-platform shorthand
-      { import = "xplugins },
+      { import = "xplugins" },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
