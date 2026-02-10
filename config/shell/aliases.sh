@@ -23,6 +23,7 @@ alias gp='git push'
 alias loga='git loga'
 alias commit='git commit'
 alias push='git push'
+alias save='git save'
 
 # Command redirection
 alias vim='nvim'
