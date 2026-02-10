@@ -12,6 +12,10 @@ alias ap='ansible-playbook'
 alias tf='terraform'
 alias q='exit'
 
+# pacman aliases
+alias syu='sudo pacman -Syu'
+alias s='sudo pacman -S'
+
 # git shortcuts
 alias g='git'
 alias ga='git add ./'
