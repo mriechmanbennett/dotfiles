@@ -10,6 +10,7 @@ alias free='free -h -l -t'
 alias c='clear'
 alias ap='ansible-playbook'
 alias tf='terraform'
+alias q='exit'
 
 # git shortcuts
 alias g='git'
