@@ -34,7 +34,7 @@ alias :wq='exit'
 alias :q='exit'
 alias cd..='cd ..'
 alias ivm='vim'
-
+alias sl='ls'
 # Safeties
 alias rm='rm -I --preserve-root'
 alias mv='mv -i'
