@@ -29,6 +29,7 @@ alias vim='nvim'
 # Mistake correction
 alias ope='sudo $(fc -ln -1)'
 alias :wq='exit'
+alias :q='exit'
 alias cd..='cd ..'
 alias ivm='vim'
 
