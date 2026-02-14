@@ -2,16 +2,19 @@ require("config.lazy")
 vim.opt.shiftwidth = 4
 vim.opt.clipboard = "unnamedplus"
 vim.opt.number = true
+vim.opt.completeopt = { "menuone", "noselect", "popup" }
+-- vim.keymap.set("i", "<C-space>", vim.lsp.completion.get, { desc = "trigger autocompletion" })
+
 
 -- Plugin-less settings from old vim config
 -- Left here for reference in case I get irritated and delete lazy
 --vim.cmd("set nocompatible")            -- disable compatibility to old-time vi
---vim.cmd("set showmatch")               -- show matching 
---vim.cmd("set ignorecase")              -- case insensitive 
---vim.cmd("set mouse=v")                 -- middle-click paste with 
---vim.cmd("set hlsearch")                -- highlight search 
+--vim.cmd("set showmatch")               -- show matching
+--vim.cmd("set ignorecase")              -- case insensitive
+--vim.cmd("set mouse=v")                 -- middle-click paste with
+--vim.cmd("set hlsearch")                -- highlight search
 --vim.cmd("set incsearch")               -- incremental search
---vim.cmd("set tabstop=4")               -- number of columns occupied by a tab 
+--vim.cmd("set tabstop=4")               -- number of columns occupied by a tab
 --vim.cmd("set softtabstop=4")           -- see multiple spaces as tabstops so <BS> does the right thing
 --vim.cmd("set expandtab")               -- converts tabs to white space
 --vim.cmd("set shiftwidth=4")            -- width for autoindents
