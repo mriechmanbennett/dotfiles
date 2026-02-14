@@ -45,3 +45,5 @@ require("lazy").setup({
 
 -- This is absolutely the wrong place to put this, but I'm tired of learning how lazy.nvim works
 vim.cmd("colorscheme gruvbox")
+vim.cmd [[hi @lsp.type.variable.ps1 guifg=GruvboxBlue]]
+vim.cmd [[hi @lsp.type.parameter.ps1 guifg=GruvboxRed]]
