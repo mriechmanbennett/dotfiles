@@ -13,9 +13,9 @@ return {
 	},
       })
       -- Optional: add/override settings for lua_ls
-      vim.lsp.config("lua_ls", { })
+      --vim.lsp.config("powershell_es", { })
       -- Start/enable the server (activates for its filetypes)
-      vim.lsp.enable("lua_ls")
+      --vim.lsp.enable("powershell_es")
     end,
   },
 }
