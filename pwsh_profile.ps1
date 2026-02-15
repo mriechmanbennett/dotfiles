@@ -25,7 +25,6 @@ New-Alias -Name gco -Value 'git co'
 New-Alias -Name gcom -Value 'git commit'
 New-Alias -Name gcomm -Value 'git commit -m'
 New-Alias -Name gst -Value 'git st'
-New-Alias -Name gp -Value 'git push'
 New-Alias -Name loga -Value 'git loga'
 New-Alias -Name commit -Value 'git commit'
 
