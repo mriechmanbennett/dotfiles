@@ -6,6 +6,7 @@
 *.o
 *.so
 *.pyc
+target/**
 
 # Editing tools and IDEs #
 ##########################
@@ -40,6 +41,11 @@ __pycache__/*
 *.key
 *.pem
 *.psk
+
+# Other secret files to ignore #
+################################
+**/.env
+**/.env.*
 
 # OS generated files #
 ######################
