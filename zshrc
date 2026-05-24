@@ -41,6 +41,7 @@ source ~/.config/shell/aliases.sh
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.local/bin/scripts
 export PATH=$PATH:$HOME/.dotnet/tools
+export PATH=$PATH:$HOME/.cargo/bin
 
 # Environmental variables
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
