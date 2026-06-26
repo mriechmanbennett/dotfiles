@@ -19,6 +19,7 @@ target/**
 .ipynb_checkpoints/
 *.kate-swp
 .~lock*
+**/.claude/
 
 # Latex build files #
 #####################
