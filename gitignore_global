@@ -20,6 +20,7 @@ target/**
 *.kate-swp
 .~lock*
 **/.claude/
+**/CLAUDE.md
 
 # Latex build files #
 #####################
