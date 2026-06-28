@@ -4,8 +4,8 @@
     "actions": [],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "keybindings": 
+    "defaultProfile": "{c5e7dadd-c45e-4030-bf58-05efa299c23d}",
+    "keybindings":
     [
         {
             "id": "Terminal.CopyToClipboard",
@@ -20,31 +20,41 @@
             "keys": "alt+shift+d"
         }
     ],
-    "newTabMenu": 
+    "newTabMenu":
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "colorScheme": "Gruvbox Dark Medium"
         },
-        "list": 
+        "list":
         [
+            {
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "guid": "{c5e7dadd-c45e-4030-bf58-05efa299c23d}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell",
+                "startingDirectory": "%USERPROFILE%"
+            },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Windows PowerShell",
+                "startingDirectory": "%USERPROFILE%"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Command Prompt"
+                "name": "Command Prompt",
+                "startingDirectory": "%USERPROFILE%"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -54,10 +64,11 @@
             }
         ]
     },
-    "schemes": [
+    "schemes":
+    [
         {
             "background": "#282828",
-            "black": "#3c3836",
+            "black": "#3C3836",
             "blue": "#458588",
             "brightBlack": "#504945",
             "brightBlue": "#83A598",
@@ -79,21 +90,24 @@
             "yellow": "#D79921"
         }
     ],
-
-    "themes": [
+    "themes":
+    [
         {
             "name": "Gruvbox Dark",
-            "tab": {
-                "background": "#504945",
+            "tab":
+            {
+                "background": "#504945FF",
                 "iconStyle": "default",
                 "showCloseButton": "always",
-                "unfocusedBackground": "#3c3836"
+                "unfocusedBackground": "#3C3836FF"
             },
-            "tabRow": {
-                "background": "#282828",
-                "unfocusedBackground": "#3c3836"
+            "tabRow":
+            {
+                "background": "#282828FF",
+                "unfocusedBackground": "#3C3836FF"
             },
-            "window": {
+            "window":
+            {
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
                 "frame": null,
