@@ -1,0 +1,1 @@
+Invoke-Expression -Command 'cmd /c reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Sudo" /v "Enabled" /t REG_DWORD /d 1 /f'
