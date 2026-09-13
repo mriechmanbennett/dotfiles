@@ -10,6 +10,11 @@ $env:XDG_CONFIG_HOME = "$HOME/.config"
 # If Nvim is installed, create alias
 if ( Test-Path -Path 'C:\Program Files\Neovim' ) { New-Alias -Name vim -Value nvim }
 
+# Functions
+function Quit {
+    Invoke-command -ScriptBlock { exit }
+}
+
 #########
 # Aliases
 #########
@@ -31,6 +36,6 @@ New-Alias -Name loga -Value 'git loga'
 New-Alias -Name commit -Value 'git commit'
 
 # Mistake corrections
-New-Alias -Name ':wq' -Value 'exit'
-New-Alias -Name ':q' -Value 'exit'
+New-Alias -Name ':wq' -Value 'Quit'
+New-Alias -Name ':q' -Value 'Quit'
 New-Alias -Name 'ivm' -Value 'vim'
