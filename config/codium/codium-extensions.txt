@@ -1,0 +1,3 @@
+jdinhlife.gruvbox
+ms-vscode.powershell
+redhat.vscode-xml
